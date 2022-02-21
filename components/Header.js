@@ -12,6 +12,7 @@ function Header() {
             {/*Logo*/}
             <div className='relative flex items-center h-10 cursor-pointer my-auto'>
                 <Image src={logo}
+                    alt='Airbnb logo'
                     layout='fill'
                     objectFit='contain'
                     objectPosition='left'
